@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_setting"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_splash">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/setting"
+        android:textSize="@dimen/_16ssp" />
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/imageSetting"
+        android:layout_width="@dimen/_85sdp"
+        android:layout_height="@dimen/_85sdp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:background="@drawable/background_image"
+        android:scaleType="centerCrop"
+        app:riv_oval="true" />
+    <FrameLayout
+        android:id="@+id/layout_chooseImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/imageSetting"
+        android:layout_alignTop="@id/imageSetting"
+        android:layout_marginStart="@dimen/_55sdp"
+        android:layout_marginTop="@dimen/_55sdp">
+        <ImageView
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:background="@drawable/background_image"
+            android:backgroundTint="#E4E4E4"
+           />
+        <ImageView
+            android:layout_width="@dimen/_18sdp"
+            android:layout_height="@dimen/_18sdp"
+            android:background="@drawable/round_photo_camera_24"
+            android:layout_gravity="center"
+            />
+    </FrameLayout>
+    <TextView
+        android:id="@+id/nameSetting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageSetting"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_100sdp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/name"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_18ssp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="@dimen/_280sdp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/imageSetting"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/_170sdp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="@dimen/_8sdp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerViewSetting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_5sdp" />
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

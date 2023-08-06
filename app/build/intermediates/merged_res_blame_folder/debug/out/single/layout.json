@@ -1,0 +1,158 @@
+[
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-mergeDebugResources-43:\\layout\\custom_dialog_for_detail_chat.xml",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-main-46:\\layout\\custom_dialog_for_detail_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-mergeDebugResources-43:\\layout\\custom_recycler_share.xml",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-main-46:\\layout\\custom_recycler_share.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-mergeDebugResources-43:\\layout\\layout_chat.xml",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-main-46:\\layout\\layout_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-mergeDebugResources-43:\\layout\\layout_send_message.xml",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-main-46:\\layout\\layout_send_message.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-mergeDebugResources-43:\\layout\\dialog_set_nickname.xml",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-main-46:\\layout\\dialog_set_nickname.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-mergeDebugResources-43:\\layout\\dialog_setting_chat.xml",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-main-46:\\layout\\dialog_setting_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-mergeDebugResources-43:\\layout\\dialog_image_profile.xml",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-main-46:\\layout\\dialog_image_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-mergeDebugResources-43:\\layout\\home_fragment.xml",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-main-46:\\layout\\home_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-mergeDebugResources-43:\\layout\\layout_recent.xml",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-main-46:\\layout\\layout_recent.xml"
+    },
+    {
+        "merged": "com.example.chatapp-mergeDebugResources-43:/layout/custom_recycler_share.xml",
+        "source": "com.example.chatapp-main-46:/layout/custom_recycler_share.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-mergeDebugResources-43:\\layout\\layout_select_color.xml",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-main-46:\\layout\\layout_select_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-mergeDebugResources-43:\\layout\\layout_push_notification.xml",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-main-46:\\layout\\layout_push_notification.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-mergeDebugResources-43:\\layout\\layout_storage.xml",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-main-46:\\layout\\layout_storage.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-mergeDebugResources-43:\\layout\\layout_received_message.xml",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-main-46:\\layout\\layout_received_message.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-mergeDebugResources-43:\\layout\\activity_splash.xml",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-main-46:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-mergeDebugResources-43:\\layout\\custom_toast_offline.xml",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-main-46:\\layout\\custom_toast_offline.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-mergeDebugResources-43:\\layout\\layout_setting.xml",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-main-46:\\layout\\layout_setting.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-mergeDebugResources-43:\\layout\\layout_recycler_contact.xml",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-main-46:\\layout\\layout_recycler_contact.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-mergeDebugResources-43:\\layout\\layout_select_icon.xml",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-main-46:\\layout\\layout_select_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-mergeDebugResources-43:\\layout\\layout_received_image.xml",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-main-46:\\layout\\layout_received_image.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-mergeDebugResources-43:\\layout\\dialog_confirm.xml",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-main-46:\\layout\\dialog_confirm.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-mergeDebugResources-43:\\layout\\layout_nickname.xml",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-main-46:\\layout\\layout_nickname.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-mergeDebugResources-43:\\layout\\layout_share_message.xml",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-main-46:\\layout\\layout_share_message.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-mergeDebugResources-43:\\layout\\layout_send_image.xml",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-main-46:\\layout\\layout_send_image.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-mergeDebugResources-43:\\layout\\custom_toast_online.xml",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-main-46:\\layout\\custom_toast_online.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-mergeDebugResources-43:\\layout\\layout_contact.xml",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-main-46:\\layout\\layout_contact.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-mergeDebugResources-43:\\layout\\layout_send_icon.xml",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-main-46:\\layout\\layout_send_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-mergeDebugResources-43:\\layout\\layout_recycler_gridview.xml",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-main-46:\\layout\\layout_recycler_gridview.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-mergeDebugResources-43:\\layout\\main_fragment.xml",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-main-46:\\layout\\main_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-mergeDebugResources-43:\\layout\\layout_recycler_setting.xml",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-main-46:\\layout\\layout_recycler_setting.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-mergeDebugResources-43:\\layout\\login.xml",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-main-46:\\layout\\login.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-mergeDebugResources-43:\\layout\\layout_custom_toast.xml",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-main-46:\\layout\\layout_custom_toast.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-mergeDebugResources-43:\\layout\\activity_get_started.xml",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-main-46:\\layout\\activity_get_started.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-mergeDebugResources-43:\\layout\\signup.xml",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-main-46:\\layout\\signup.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-mergeDebugResources-43:\\layout\\layout_image_profile.xml",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-main-46:\\layout\\layout_image_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-mergeDebugResources-43:\\layout\\layout_detail_image.xml",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-main-46:\\layout\\layout_detail_image.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-mergeDebugResources-43:\\layout\\layout_received_icon.xml",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-main-46:\\layout\\layout_received_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-mergeDebugResources-43:\\layout\\layout_online_user.xml",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-main-46:\\layout\\layout_online_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-mergeDebugResources-43:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\admin\\.gradle\\daemon\\7.5\\com.example.chatapp-main-46:\\layout\\activity_main.xml"
+    }
+]

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/loginPage"
+    >
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/background_splash"
+            />
+        <ImageView
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_80sdp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="@dimen/_58sdp"
+            android:background="@drawable/messenger" />
+        <androidx.cardview.widget.CardView
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="@dimen/_130sdp"
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            app:cardCornerRadius="50dp"
+            app:cardElevation="0dp"
+            app:cardBackgroundColor="@android:color/transparent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/_30sdp"
+                    android:fontFamily="@font/poppins_medium"
+                    android:text="Welcome Back !"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_20ssp"/>
+                <EditText
+                    android:id="@+id/emailInput"
+                    android:layout_width="@dimen/_250sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:background="@drawable/background_edittext"
+                    android:layout_marginTop="100dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/poppins_medium"
+                    android:textSize="@dimen/_13ssp"
+                    android:hint="Email"
+                    android:imeOptions="actionDone"
+                    android:paddingStart="@dimen/_16sdp"
+                    android:paddingTop="@dimen/_5sdp"
+                    android:paddingEnd="@dimen/_16sdp"
+                    android:textColorHint="#8F8F8F"
+                    android:textColor="#000000"/>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/passwordInputLayout"
+                    android:layout_width="@dimen/_250sdp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_70sdp"
+                    android:hint="Password"
+                    android:layout_alignTop="@+id/emailInput"
+                    android:fontFamily="@font/poppins_medium"
+                    android:layout_centerHorizontal="true"
+                    android:textColorHint="#8F8F8F"
+                    android:paddingBottom="@dimen/_5sdp"
+                    app:endIconMode="password_toggle"
+                    >
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/passwordInput"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_45sdp"
+                        android:background="@drawable/background_edittext"
+                        android:fontFamily="@font/poppins_medium"
+                        android:inputType="textPassword"
+                        android:paddingStart="@dimen/_16sdp"
+                        android:textSize="@dimen/_13ssp"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <Button
+                    android:id="@+id/btnSignIn"
+                    android:layout_width="@dimen/_250sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:layout_alignTop="@id/passwordInputLayout"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="@dimen/_80sdp"
+                    android:background="@drawable/custom_button_2"
+                    android:fontFamily="@font/poppins_medium"
+                    android:text="Sign In"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_14ssp" />
+                <ProgressBar
+                    android:id="@+id/progressBarSignIn"
+                    android:layout_alignTop="@id/btnSignIn"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_180sdp"
+                    android:indeterminate="true"
+                    android:indeterminateDrawable="@drawable/custom_progressbar"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_medium"
+                    android:text="-OR-"
+                    android:textColor="#8F8F8F"
+                    android:textSize="@dimen/_12ssp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignTop="@+id/btnSignIn"
+                    android:layout_marginTop="@dimen/_55sdp"/>
+
+                <Button
+                    android:id="@+id/btnCreateAccount"
+                    android:layout_width="@dimen/_250sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:layout_alignTop="@id/btnSignIn"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="@dimen/_80sdp"
+                    android:background="@drawable/background_edit_create_account"
+                    android:fontFamily="@font/poppins_medium"
+                    android:text="Create Account"
+                    android:textAlignment="center"
+                    android:textColor="#5A5A5A"
+                    android:textSize="@dimen/_12ssp" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

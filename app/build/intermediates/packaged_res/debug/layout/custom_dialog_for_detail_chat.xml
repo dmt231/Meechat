@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+   >
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="0dp"
+        android:layout_weight="0.45"
+        android:layout_height="@dimen/_50sdp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Delete"
+        android:textSize="@dimen/_12ssp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@drawable/background_search"
+        android:drawableLeft="@drawable/baseline_delete_24"
+        android:layout_marginLeft="@dimen/_2sdp"
+        android:padding="@dimen/_16sdp"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/share"
+        android:layout_width="0dp"
+        android:layout_weight="0.45"
+        android:layout_height="@dimen/_50sdp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Share"
+        android:background="@drawable/background_search"
+        android:drawableLeft="@drawable/baseline_ios_share_24"
+        android:padding="@dimen/_16sdp"
+        android:textSize="@dimen/_12ssp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:textColor="@color/black"/>
+
+</LinearLayout>
