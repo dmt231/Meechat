@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">ChatApp</string>
+    <string name="blue">Blue</string>
+    <string name="green">Green</string>
+    <string name="darkGray">DarkGray</string>
+    <string name="lightGray">lightGray</string>
+    <string name="lightBrown">lightBrown</string>
+    <string name="orange">orange</string>
+    <string name="lightBlue">lightBlue</string>
+    <string name="yellow">yellow</string>
+    <string name="pink">pink</string>
+    <string name="red">red</string>
+    <string name="currentTheme">currentTheme</string>
+    <string name="select_the_theme_color_for_this_conservation">Select the theme color for this conservation</string>
+    <string name="select_the_icon_for_this_conservation">Select the icon for this conservation</string>
+    <string name="like">Like</string>
+    <string name="btnSelect">Select</string>
+    <string name="btnCancel">Cancel</string>
+    <string name="setting">Setting</string>
+    <string name="name">Name</string>
+    <string name="background">background</string>
+    <string name="photos">photos</string>
+    <string name="see_your_image_profile">See your image profile</string>
+    <string name="select_your_image_profile">Select your image profile</string>
+    <string name="color_theme">Color Theme</string>
+    <string name="storage">Storage</string>
+    <string name="fast_emoji">Fast Emoji</string>
+    <string name="media_storage">Media storage</string>
+    <string name="back">back</string>
+    <string name="nickname">Nickname</string>
+    <string name="set_nickname">Set nickname</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="are_you_sure_to_delete_this_conversation">Are you sure to delete this conversation ?</string>
+</resources>

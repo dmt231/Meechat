@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/image_online"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_margin="@dimen/_12sdp"
+        android:scaleType="centerCrop"
+        app:riv_oval="true"
+        android:background="@drawable/messenger"/>
+    <ImageView
+        android:layout_width="@dimen/_12sdp"
+        android:layout_height="@dimen/_12sdp"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:layout_marginStart="@dimen/_40sdp"
+        android:background="@drawable/background_online"
+        android:scaleType="centerCrop"
+        app:riv_oval="true"
+        />
+    <TextView
+        android:id="@+id/nameUserOnline"
+        android:layout_alignTop="@id/image_online"
+        android:layout_width="@dimen/_55sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_45sdp"
+        android:layout_marginStart="@dimen/_4sdp"
+        android:text="Minh Tue Do"
+        android:maxLines="2"
+        android:fontFamily="@font/poppins_medium"
+        android:textSize="@dimen/_12ssp"
+        android:textColor="@color/black"
+        android:textAlignment="center"/>
+</RelativeLayout>
