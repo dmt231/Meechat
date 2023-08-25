@@ -129,13 +129,25 @@ class HomeFragment( mainFragment: MainFragment) : Fragment() {
 
             @SuppressLint("NotifyDataSetChanged")
             override fun newMessage() {
-                for(chat in conservation){
-                    Log.d("Conversion", chat.conversionNickname.toString())
-                }
                 conservation.sortWith { obj1, obj2 ->
                     obj2.dateObject!!.compareTo(obj1.dateObject)
                 }
-                conservationAdapter.notifyDataSetChanged()
+                for(conversations in conservation){
+                    repository.getImageUserById(conversations.conversionId!!.toLong(),
+                        object : UserRepository.GetUser {
+                            override fun onSuccess(user: User) {
+                                TODO("Not yet implemented")
+                            }
+
+                            override fun getImage(image: String) {
+                                conversations.conversionImage = image
+                                conservationAdapter.notifyDataSetChanged()
+                            }
+
+                        } )
+
+                }
+//                conservationAdapter.notifyDataSetChanged()
             }
 
             override fun noMessage() {

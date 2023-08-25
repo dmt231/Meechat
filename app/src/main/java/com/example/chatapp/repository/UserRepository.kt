@@ -67,7 +67,19 @@ class UserRepository {
                 }
             }
     }
-
+    fun getImageUserById(userId: Long, getUser: GetUser){
+        val collectionRef = fireStore.collection("User")
+        collectionRef.orderBy("userId")
+            .whereEqualTo("userId", userId)
+            .get()
+            .addOnCompleteListener {
+                if (it.isSuccessful && !it.result.isEmpty){
+                    val image = it.result.documents[0].getString("Image")
+                    if(image != null)
+                    {getUser.getImage(image)}
+                }
+            }
+    }
 
     fun getAllUser() {
         val collectionRef = fireStore.collection("User")
@@ -225,5 +237,6 @@ class UserRepository {
     }
     interface GetUser{
         fun onSuccess(user : User)
+        fun getImage(image : String)
     }
 }
