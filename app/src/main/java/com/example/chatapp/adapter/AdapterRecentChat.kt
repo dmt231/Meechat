@@ -60,14 +60,16 @@ class AdapterRecentChat (listChat : ArrayList<ChatMessage>, onClickListener: OnC
                 holder.binding.nameContact.text.toString()
             )
         }
-        if (chat.lastId != chat.conversionId!!.toLong()){
+        if (chat.lastId != chat.conversionId!!.toLong()){ //You
             if(chat.isImage!!.toInt() == 0){
                 holder.binding.textRecent.text = "You: " + chat.getMessage()
+            }else if(chat.isImage!!.toInt() == 2){
+                holder.binding.textRecent.text = "You have send a icon."
             }else{
                 holder.binding.textRecent.text = "You have send a image."
             }
         }
-        else{
+        else{ //Opponent
             if(chat.isImage!!.toInt() == 0){
                 holder.binding.textRecent.text = chat.getMessage()
             }else if(chat.isImage!!.toInt() == 2){
