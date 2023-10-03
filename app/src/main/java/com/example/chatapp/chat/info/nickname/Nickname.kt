@@ -149,6 +149,10 @@ class Nickname : Fragment(){
                 userName2 = user.getUsername()
                 getNickname()
             }
+
+            override fun getImage(image: String) {
+                TODO("Not yet implemented")
+            }
         })
     }
 }

@@ -3,6 +3,8 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item android:title="Message" android:id="@+id/messageIcon" android:icon="@drawable/message_2" />
+    <item android:title="Group" android:id="@+id/groupChat" android:icon="@drawable/baseline_group_24"/>
     <item android:title="Contact" android:id="@+id/contact" android:icon="@drawable/user_2" />
     <item android:title="Setting" android:id="@+id/setting" android:icon="@drawable/settings" />
+
 </menu>

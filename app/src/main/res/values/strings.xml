@@ -32,4 +32,7 @@
     <string name="save">Save</string>
     <string name="cancel">Cancel</string>
     <string name="are_you_sure_to_delete_this_conversation">Are you sure to delete this conversation ?</string>
+    <string name="group_chat">Group Chat</string>
+    <string name="search">Search</string>
+    <string name="group_name_no_optional">Group Name (No optional)</string>
 </resources>

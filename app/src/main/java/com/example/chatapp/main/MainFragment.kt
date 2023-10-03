@@ -14,6 +14,7 @@ import com.example.chatapp.broadcast.ConnectReceiver
 import com.example.chatapp.chat.ChatScreen
 import com.example.chatapp.contact.Contact
 import com.example.chatapp.databinding.MainFragmentBinding
+import com.example.chatapp.group.GroupChatFragment
 import com.example.chatapp.home.HomeFragment
 import com.example.chatapp.login.Login
 import com.example.chatapp.model.User
@@ -64,6 +65,11 @@ class MainFragment() : Fragment() {
                     onChangedToHome()
                     binding.bottomBar.menu.findItem(R.id.messageIcon).isChecked = true
                 }
+                R.id.groupChat ->{
+                    onChangedToGroupChat()
+                    binding.bottomBar.menu.findItem(R.id.groupChat).isChecked = true
+                }
+
                 R.id.contact ->{
                     onChangedToContact()
                     binding.bottomBar.menu.findItem(R.id.contact).isChecked = true
@@ -87,6 +93,12 @@ class MainFragment() : Fragment() {
         chatScreen.arguments = bundle
         fragmentTrans.replace(R.id.mainLayout, chatScreen)
         fragmentTrans.addToBackStack(null)
+        fragmentTrans.commit()
+    }
+    fun onChangedToGroupChat(){
+        val groupChat = GroupChatFragment(this)
+        val fragmentTrans = requireActivity().supportFragmentManager.beginTransaction()
+        fragmentTrans.replace(R.id.layoutMain, groupChat)
         fragmentTrans.commit()
     }
 }
