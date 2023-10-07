@@ -14,6 +14,7 @@ import com.example.chatapp.broadcast.ConnectReceiver
 import com.example.chatapp.chat.ChatScreen
 import com.example.chatapp.contact.Contact
 import com.example.chatapp.databinding.MainFragmentBinding
+import com.example.chatapp.group.CreateGroupChat
 import com.example.chatapp.group.GroupChatFragment
 import com.example.chatapp.home.HomeFragment
 import com.example.chatapp.login.Login
@@ -99,6 +100,13 @@ class MainFragment() : Fragment() {
         val groupChat = GroupChatFragment(this)
         val fragmentTrans = requireActivity().supportFragmentManager.beginTransaction()
         fragmentTrans.replace(R.id.layoutMain, groupChat)
+        fragmentTrans.commit()
+    }
+    fun onChangedToCreateGroupChat(){
+        val createGroupChat = CreateGroupChat()
+        val fragmentTrans = requireActivity().supportFragmentManager.beginTransaction()
+        fragmentTrans.replace(R.id.mainLayout, createGroupChat)
+        fragmentTrans.addToBackStack(createGroupChat.tag)
         fragmentTrans.commit()
     }
 }

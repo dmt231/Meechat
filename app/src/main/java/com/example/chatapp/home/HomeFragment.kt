@@ -35,7 +35,7 @@ import com.google.firebase.messaging.FirebaseMessaging
 
 
 class HomeFragment( mainFragment: MainFragment) : Fragment() {
-    private  var mainFragment: MainFragment
+    private var mainFragment: MainFragment
     private lateinit var repository: UserRepository
     private lateinit var chatRepository: ChatRepository
     private lateinit var binding : HomeFragmentBinding
